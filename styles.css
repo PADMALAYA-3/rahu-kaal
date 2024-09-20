@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+nav {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav ul li:hover {
+  color: rgb(146, 146, 5);
+  text-decoration: underline;
+}
+.body {
+  padding: 1rem;
+  margin: 1rem;
+}
+div h1 {
+  font-size: 40px;
+}
+div h2 {
+  font-size: 25px;
+}
+div p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+.paragraph {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.image {
+  height: 500px;
+  width: 400px;
+  margin: 1rem;
+}
+.text {
+  align-self: flex-end;
+  /* flex-flow: row wrap; */
+}
